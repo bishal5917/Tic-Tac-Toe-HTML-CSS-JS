@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.gcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 10vw);
+  grid-template-rows: repeat(3, 10vw);
+  margin-left: 33vw;
+  margin-top: 20vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.buttons{
+  flex:0;
+}
+.boxes {
+  display: flex;
+  border: 2px solid purple;
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+}
+.boxes:hover {
+  background-color: rgb(10, 55, 153);
+}
+
+.blo {
+  border-left: 0;
+}
+.bro {
+  border-right: 0;
+}
+.bto {
+  border-top: 0;
+}
+.bbo {
+  border-bottom: 0;
+}
+.boxcontent {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#stylealert{
+  background-color: rgb(18, 107, 18);
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
